@@ -25,6 +25,10 @@ pavlov.specify('Calc', function(){
         assert(calc.sum([1])).isSameAs(1);
         assert(calc.sum([1, 2, 3, 4])).isSameAs(10);
       });
+
+      it('わざと失敗するよ', function() {
+        assert(calc.sum([])).isSameAs(100);
+      });
     });
   });
 });
