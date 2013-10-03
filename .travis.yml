@@ -1,0 +1,1 @@
+script: phantomjs vendor/qunit/phantomjs/runner.js test/index.html
